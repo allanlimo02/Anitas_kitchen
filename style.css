@@ -41,3 +41,9 @@ body{
     background-image: url(assets/foodtop/dinner.jpg);
     background-size: cover;
 }
+#products{
+    background-color: white;
+    display: flex;
+    padding-top: 30px;
+    
+}

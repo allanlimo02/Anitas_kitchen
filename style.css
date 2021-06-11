@@ -1,0 +1,49 @@
+body{
+    font-family: Poppins;
+}
+.top-area{
+    background-image: url(assets/backgrounds/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 100px;
+}
+.meals{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+
+
+
+#happymain{
+    background-color: white;
+    background-size: cover;
+    
+}
+#happy{
+    color: black;
+}
+#party{
+    background-color: #f25c2a;
+}
+
+#breakfast{
+    background-image: url(assets/foodtop/breakfast.jpg);
+    background-size: cover;
+    
+}
+#lunch{
+    background-image: url(assets/backgrounds/foodsBg.jpg);
+}
+#dinner{
+    background-image: url(assets/foodtop/dinner.jpg);
+    background-size: cover;
+}
+#products{
+    background-color: white;
+    display: flex;
+    padding-top: 30px;
+    
+}

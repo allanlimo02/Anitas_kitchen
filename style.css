@@ -7,11 +7,18 @@ body{
     background-size: cover;
     margin: 0px;
     padding: 100px;
+    font-weight: 100;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
 }
 .meals{
     display: flex;
     justify-content: space-around;
     color: white;
+    text-align: center;
+    font-weight: 75;
+    font-size: 30px;
 }
 
 
@@ -20,7 +27,11 @@ body{
 #happymain{
     background-color: white;
     background-size: cover;
+    width: 25%;
     
+}
+#happymain h2{
+    text-align: center;
 }
 #happy{
     color: black;
@@ -32,18 +43,37 @@ body{
 #breakfast{
     background-image: url(assets/foodtop/breakfast.jpg);
     background-size: cover;
-    
+    width: 25%;
 }
 #lunch{
     background-image: url(assets/backgrounds/foodsBg.jpg);
+    width: 25%;
 }
 #dinner{
     background-image: url(assets/foodtop/dinner.jpg);
     background-size: cover;
+    width: 25%;
 }
 #products{
     background-color: white;
     display: flex;
     padding-top: 30px;
-    
+
+}
+.switcher{
+    background-image: url(assets/backgrounds/foodsBg.jpg);
+    text-align: center;
+    color: white;
+    padding: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#switcher1{
+    position: absolute;
+width: 1105px;
+height: 378px;
+left: 158px;
+top: 201px;
+
+background: red;
 }

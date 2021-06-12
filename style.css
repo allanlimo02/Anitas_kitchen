@@ -76,21 +76,29 @@ body{
     display: flex;
     padding: 20px;
     justify-content: space-around;
-    margin: 100px;
+    width: 70%;
+    margin-left: 15%;
+    margin-left: 15%;
 }
 #fastfoodtxt{
     padding-left: 30px;
-    padding-right: 500px;
+    
     
 }
 
 #fastfoodimg{
     margin: 0px;
-    box-shadow: 25px 25px 25px red;
+    box-shadow: 5px 5px 5px red;
+}
+#fastfood img{
+    margin: 0;
 }
 .drinks{
     display: flex;
     align-items:center;
+    width: 70%;
+    margin-left: 15%;
+    margin-left: 15%;
 }
 #drinkstxt{
     width: 40%;

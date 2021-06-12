@@ -62,6 +62,30 @@ body{
     padding-top: 30px;
 
 }
+.fastfood{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    margin: 20px;
+}
+#fastfoodtxt{
+    padding-left: 30px;
+    
+    
+}
+@media only screen and (max-width: 480px){
+    #fastfoodtxt{
+        padding-right: 500px;
+
+    }
+}
+#fastfoodimg{
+    margin: 0px;
+    box-shadow: 25px 25px 25px red;
+}
+.drinks{
+    display: flex;
+}
 .switcher{
     background-image: url(assets/backgrounds/foodsBg.jpg);
     text-align: center;
@@ -87,9 +111,17 @@ top: 201px;
 }
 .footer{
     background-color: #f25d2a;
+    padding-top: 100px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
 }
 #logo{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    
+    font-size: 45px;
+}
+
+#copyright{
+    font-size: 15px;
+    text-align: center;
 }

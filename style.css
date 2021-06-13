@@ -1,7 +1,7 @@
 body{
     font-family: Poppins;
     transition: margin-left .5s; 
-    padding: 20px;
+    margin: 0%;
     
 }
 .top-area{
@@ -9,12 +9,40 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
-    padding: 100px;
+    padding: 200px;
     font-weight: 100;
     font-size: 40px;
     text-transform: capitalize;
     text-align: center;
+    color: white;
+    font-weight: 100;
 }
+span{
+    color: white;
+    float: left;
+    margin-left: 2%;
+    font-size: 45px;
+  }
+  span:hover{
+    transform-style: preserve-3d;
+  }
+  span:after {
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    position: absolute;
+    background: #ff7a59;
+    border-radius: 5px;
+    content: 'Flipped';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+  }
+  span:hover {
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+  }
+
+
 .meals{
     display: flex;
     justify-content: space-around;
@@ -23,6 +51,7 @@ body{
     font-weight: 100;
     font-size: 30px;
     font-style: italic;
+    padding-bottom: 20px;
 }
 #lunch:hover{
     opacity: 0.5;
@@ -34,22 +63,49 @@ body{
 #dinner:hover{
     opacity: 0.5;
 }
-
+#time:hover{
+    opacity: 0.5;
+}
+#hour:hover{
+    opacity: 0.5;
+}
 
 #happymain{
     background-color: white;
     background-size: cover;
     width: 25%;
+    padding-bottom: 50px;
+    
     
 }
 #happymain h2{
     text-align: center;
+    
+    border: none;
 }
 #happy{
     color: black;
+    height: 50px;
+
+}
+#party{
+    height: 50px;
+}
+table{
+    color: black;
+}
+#hour{
+    background-color: #e4e5e7;
+}
+#time{
+    background-color: #f25c2a;
+    width: 26%;
+    height: 100%;
+    color: #fff;
 }
 #party{
     background-color: #f25c2a;
+    background-size: 30px;
 }
 
 #breakfast{
@@ -86,9 +142,10 @@ body{
     
 }
 
-#fastfoodimg{
-    margin: 0px;
-    box-shadow: 5px 5px 5px red;
+#fastimg{
+    border: white solid 20px;
+    box-shadow: 5px 5px 5px 5px grey;
+
 }
 #fastfood img{
     margin: 0;
@@ -105,6 +162,7 @@ body{
     text-align: right;
     margin: 20px;
 }
+/* Switcher Class*/
 .switcher {
     background-image: url(assets/backgrounds/foodsBg.jpg);
     width: 80%;
@@ -153,7 +211,7 @@ body{
    
 }
 
-/* New code*/
+/* Class switcher*/
 .feedback{
     display: flex;
     justify-content: space-around;
@@ -164,10 +222,11 @@ body{
     margin-left: 10%;
 }
 .custimg{
-    display: flex;
-    justify-content: space-evenly;
+    
+    justify-content: space-around;
     padding-bottom: 10px;
     color: #f25c2a;
+    font-size: 50px;
 }
 
 #customer {
@@ -239,4 +298,12 @@ input{
 #copyright{
     font-size: 15px;
     text-align: center;
+}
+#customer{
+    border-right: solid grey 2px;
+    width: 50%;
+    
+}
+.socials img{
+    
 }

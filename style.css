@@ -23,6 +23,7 @@ body{
     font-weight: 100;
     font-size: 30px;
     font-style: italic;
+    padding-bottom: 20px;
 }
 #lunch:hover{
     opacity: 0.5;
@@ -34,22 +35,33 @@ body{
 #dinner:hover{
     opacity: 0.5;
 }
-
+#time:hover{
+    opacity: 0.5;
+}
+#hour:hover{
+    opacity: 0.5;
+}
 
 #happymain{
     background-color: white;
     background-size: cover;
     width: 25%;
+    padding-bottom: 50px;
     
 }
 #happymain h2{
     text-align: center;
+    
+    border: none;
 }
 #happy{
     color: black;
 }
 table{
     color: black;
+}
+#hour{
+    background-color: #e4e5e7;
 }
 #time{
     background-color: #f25c2a;
@@ -175,10 +187,11 @@ table{
     margin-left: 10%;
 }
 .custimg{
-    display: flex;
-    justify-content: space-evenly;
+    
+    justify-content: space-around;
     padding-bottom: 10px;
     color: #f25c2a;
+    font-size: 50px;
 }
 
 #customer {
@@ -254,5 +267,8 @@ input{
 #customer{
     border-right: solid grey 2px;
     width: 50%;
+    
+}
+.socials img{
     
 }

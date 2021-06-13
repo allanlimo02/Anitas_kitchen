@@ -105,23 +105,55 @@ body{
     text-align: right;
     margin: 20px;
 }
-
-.switcher{
+.switcher {
     background-image: url(assets/backgrounds/foodsBg.jpg);
+    width: 80%;
+    margin: 0 auto;
+    padding: 5em 6em;
+}
+
+.switcher-container {
+    background-color: #fff;
+    
+}
+
+.switcher-list {
     text-align: center;
-    color: white;
-    padding: 200px;
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    background-color: #999;
 }
-#switcher1{
-    position: absolute;
-width: 1105px;
-height: 378px;
-left: 158px;
-top: 201px;
+
+.switcher-list-item1 {
+    background: #fff;
+    padding-top: 1em;
+    padding-left: 7em;
+    padding-right: 7em;
+    color: #f25c2a;
+    font-weight: bold;
 }
-/* Till i add products css here*/
+
+.switcher-list-item {
+    border-right: .8px solid #111;
+    padding-right: 6em;
+}
+
+.switcher-images {
+   text-align: center;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin-top: 1.5em;
+   margin-left: 4em;
+   margin-right: 4em;
+}
+
+.food-image1 p{
+    color: #f25c2a;
+    font-weight: bold;
+   
+}
+
+/* New code*/
 .feedback{
     display: flex;
     justify-content: space-around;
@@ -130,6 +162,12 @@ top: 201px;
     width: 80%;
     margin-right: 10%;
     margin-left: 10%;
+}
+.custimg{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    color: #f25c2a;
 }
 
 #customer {

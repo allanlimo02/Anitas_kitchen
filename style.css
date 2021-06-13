@@ -48,8 +48,18 @@ body{
 #happy{
     color: black;
 }
+table{
+    color: black;
+}
+#time{
+    background-color: #f25c2a;
+    width: 26%;
+    height: 100%;
+    color: #fff;
+}
 #party{
     background-color: #f25c2a;
+    background-size: 10%;
 }
 
 #breakfast{
@@ -240,4 +250,9 @@ input{
 #copyright{
     font-size: 15px;
     text-align: center;
+}
+#customer{
+    border-right: solid grey 2px;
+    width: 50%;
+    
 }

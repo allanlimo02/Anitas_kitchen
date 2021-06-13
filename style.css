@@ -86,9 +86,10 @@ body{
     
 }
 
-#fastfoodimg{
-    margin: 0px;
-    box-shadow: 5px 5px 5px red;
+#fastimg{
+    border: white solid 20px;
+    box-shadow: 5px 5px 5px 5px grey;
+
 }
 #fastfood img{
     margin: 0;

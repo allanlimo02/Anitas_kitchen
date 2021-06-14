@@ -74,13 +74,13 @@ span{
     background-color: white;
     background-size: cover;
     width: 25%;
-    padding-bottom: 100px;
+    
     
     
 }
 #happymain h2{
     text-align: center;
-    padding-b;
+    1   
     border: none;
 }
 #happy{
@@ -89,7 +89,8 @@ span{
 
 }
 #party{
-    height: 50px;
+    height: 100px;
+    padding-top: 20px;
 }
 table{
     color: black;
@@ -243,6 +244,11 @@ table{
 .feedback h2{
     color: #f25d2a;
 }
+.button1:hover{
+    background-color: #f25c2a;
+    border: none;
+    color: white;
+}
 .button1 {
     background-color: white;
     border:2px solid #f25d2a;
@@ -260,8 +266,10 @@ table{
     font-weight: 100;
     text-align: center;
     padding-top: 40px;
+    
 
 }
+
 input{
     padding: 20px;
     background-color: white;

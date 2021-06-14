@@ -74,7 +74,7 @@ span{
     background-color: white;
     background-size: cover;
     width: 25%;
-    padding-bottom: 100px;
+    
     
     
 }
@@ -89,7 +89,8 @@ span{
 
 }
 #party{
-    height: 50px;
+    height: 100px;
+    padding-top: 20px;
 }
 table{
     color: black;
@@ -265,8 +266,10 @@ table{
     font-weight: 100;
     text-align: center;
     padding-top: 40px;
+    
 
 }
+
 input{
     padding: 20px;
     background-color: white;

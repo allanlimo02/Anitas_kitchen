@@ -33,7 +33,7 @@ span{
     position: absolute;
     background: #ff7a59;
     border-radius: 5px;
-    content: 'Flipped';
+    content: 'Home';
     transform-origin: left bottom;
     transform: rotateX(90deg);
   }
@@ -74,18 +74,18 @@ span{
     background-color: white;
     background-size: cover;
     width: 25%;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     
     
 }
 #happymain h2{
     text-align: center;
-    
+    padding-b;
     border: none;
 }
 #happy{
     color: black;
-    height: 50px;
+    height: 50x;
 
 }
 #party{
